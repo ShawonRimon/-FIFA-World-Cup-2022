@@ -11,9 +11,13 @@ body{
 
 .containter{
     display: flex;
-    background-color: black;
+    background-color: #161616;
+    border-radius: 15px;
     width: 1321px;
     height: 620px;
+    align-items: center;
+    padding-left: 35px;
+    margin-bottom: 25px;
 
 }
 h1{
@@ -40,3 +44,40 @@ h1{
     color: white;
     font-size: 20px;
 }
+/* feture sections */
+
+/* footer */
+
+footer{
+    background-color: #161616;
+    width: 1321px;
+    height:444px ;
+}
+footer p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 100px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 80px;
+    color: #fffffff9;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+    
