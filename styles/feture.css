@@ -4,8 +4,13 @@ google fonts poppins
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 
+.body-design{
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* sections hedear start */
 
@@ -59,7 +64,9 @@ h1{
     padding: 2% 0;
    
 }
+.feture-inner{
 
+}
 
 .menu-btn{
     font-size: 18px;
@@ -74,39 +81,37 @@ h1{
 .team-section{
     width: 73%;
     margin: 1%;
-    /* display: flex;
-    flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
 }
 .team{
-    /* width: 31%; */
-    margin: 1%;
-    border: 1px solid #1E1E1E;
+    width: 31%;
+    height: 242px;
+    border: 1px solid #E8E8E8;
     border-radius: 10px;
+    margin: 1%;
 
 
 }
-/* .team-image, image{
-    width: 100%;
-    overflow: hidden;
-} */
+
 .team-data{
-    padding: 10px;
-}
-.team-data a{
-    margin: 20px 0;
-    padding: 5px 25px;
-    border: 1px solid black;
-    border-radius: 7px;
+    text-align: center;
 }
 
+.team-vs{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
 
 /* footer */
 
 footer{
     background-color: #161616;
-    width: 1321px;
+    width: 100%;
     height:444px ;
 }
 footer p{
@@ -137,5 +142,3 @@ nav li a{
 }
 
     
-/* Media Queries  */
-

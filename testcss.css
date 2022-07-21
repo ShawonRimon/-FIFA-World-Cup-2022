@@ -1,0 +1,10 @@
+@media screen and (max-width:677) {
+    body{
+        background-color: rgb(255, 5, 5);
+    }
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
